@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      body {
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="top">HTML 課題</h1>
+
+    <h2>問1</h2>
+
+    <h3>1-1</h3>
+    <div>
+      吾輩は猫である。<br>
+      名前はまだ無い。<br>
+      どこで生まれたかとんと見当がつかぬ。<br>
+      何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。<br>
+    </div>
+
+    <h3>1-2</h3>
+    <div>
+      <p>吾輩は猫である。</p>
+      <p>名前はまだ無い。</p>
+      <p>どこで生まれたかとんと見当がつかぬ。</p>
+      <p>何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。</p>
+    </div>
+
+    <h3>1-3</h3>
+    <div>
+      <pre>
+        吾輩は猫である。<br>
+        名前はまだ無い。<br>
+        どこで生れたかとんと見当がつかぬ。<br>
+        何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。
+      </pre>
+    </div>
+
+    <h3>1-4</h3>
+    <div>
+      <b>吾輩</b>は<b>猫</b>である。<s>名前はまだ無い。</s>
+    </div>
+
+    <h3>1-5</h3>
+    <div>
+      <ul>
+        <li>item01</li>
+        <li>item02</li>
+        <li>item03</li>
+        <li>item04</li>
+      </ul>
+    </div>
+
+    <h3>1-6</h3>
+    <div>
+      <ul>
+        <li>1段目</li>
+        <ul>
+          <li>2段目</li>
+          <ul>
+            <li>3段目</li>
+          </ul>
+          <li>2段目</li>
+        </ul>
+        <li>1段目</li>
+      </ul>
+
+    </div>
+
+    <h3>1-7</h3>
+    <div>
+      <ol>
+        <li>あああ</li>
+        <li>いいい</li>
+        <li>ううう</li>
+        <li>えええ</li>
+      </ol>
+    </div>
+
+    <h2>問2</h2>
+
+    <h3>2-1</h3>
+    <div>
+      <table>
+        <tr><td>田中 太郎</td><td>20歳</td></tr>
+        <tr><td>田中 次郎</td><td>18歳</td></tr>
+        <tr><td>田中 三郎</td><td>16歳</td></tr>
+      </table>
+    </div>
+
+    <h3>2-2</h3>
+    <div>
+      <table>
+        <tr><th>苗字</th><th>名前</th><th>年齢</th></tr>
+        <tr><td>田中</td><td>太郎</td><td>20歳</td></tr>
+        <tr><td>田中</td><td>次郎</td><td>18歳</td></tr>
+        <tr><td>田中</td><td>三郎</td><td>16歳</td></tr>
+      </table>
+    </div>
+
+    <h3>2-3</h3>
+    <div>
+      <table border="1">
+        <tr>
+          <th>生産地</th>
+          <th>銘柄</th>
+          <th>日本酒度</th>
+        </tr>
+        <tr><td rowspan="2">静岡</td><td>英君</td><td>+4</td></tr>
+        <tr><td>正雪</td><td>0</td></tr>
+        <tr><td>香川</td><td>酔鯨</td><td>+6</td></tr>
+        <tr><td colspan="3">以下略</td></tr>
+      </table>
+    </div>
+
+    <h2>問3</h2>
+    <h3>3-1</h3>
+    <div>
+      <img src="/Users/high_noon/Desktop/html_css_kadai/img/fff.png">
+    </div>
+
+    <h3>3-2</h3>
+    <div>
+      <img src="./img/fff.png" alt=""width="300px">
+    </div>
+
+    <h3>3-3</h3>
+    <div>
+      <img src="./img/fff.pgg" alt="代替テキスト">
+    </div>
+
+    <h2>問4</h2>
+    <h3>4-1</h3>
+    <div>
+      <a href="https://www.google.co.jp">ページを移動</a>
+    </div>
+
+    <h3>4-2</h3>
+    <div>
+      <a href="https://www.yahoo.co.jp" target="_blank" rel="noopener noreferrer">別ページで表示</a>
+    </div>
+
+    <h3>4-3</h3>
+    <div>
+      <a href="#top">TOPへ戻る</a>
+    </div>
+
+    <h2>問5</h2>
+    <h3>5-1</h3>
+    <div>
+      <from method="POST">
+        <div>
+          <label for="name">氏名 :</label>
+          <input type="text" name="name" placeholder="例：田中太郎">
+        </div>
+      </form>
+    </div>
+
+    <h3>5-2</h3>
+    <div>
+      <form method="POST">
+        <div>
+          <label for="key">pass :</label>
+          <input type="password" name="key">
+        </div>
+      </form>
+    </div>
+
+    <h3>5-3</h3>
+    <div>
+      <input type="radio" name="radio" id="select_radio1"><label for="select_radio1">ラジオ1</label>
+      <input type="radio" name="radio" id="select_radio2"><label for="select_radio2">ラジオ2</label>
+    </div>
+
+    <h3>5-4</h3>
+    <div>
+      <label for="select_radio3"><input type="checkbox" name="radio" id="select_radio3">チェック1</label>
+      <label for="select_radio4"><input type="checkbox" name="radio" id="select_radio4" checked>チェック2</label>
+      <input type="checkbox" name="radio">チェック3
+    </div>
+
+    <h3>5-5</h3>
+    <div>
+      <input type="button" value="ボタン">
+      <input type="submit" value="送信">
+      <input type="reset" value="リセット">
+    </div>
+
+    <h3>5-6</h3>
+    <div>
+      <select name="example">
+        <option value="オプション1">オプション1</option>
+        <option value="オプション2" selected>オプション2</option>
+        <option value="オプション3">オプション3</option>
+        <option value="オプション4">オプション4</option>
+      </select>
+    </div>
+  </body>
+</html>
